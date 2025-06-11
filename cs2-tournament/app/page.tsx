@@ -404,7 +404,7 @@ export default function TournamentRegistration() {
                 text: `Mukofot fondi: ${tournamentStats?.prize_pool?.toLocaleString() || "100,000"} so'm`,
                 color: "from-yellow-400 to-orange-500",
               },
-              { icon: Calendar, text: "15-17 Mart 2024", color: "from-blue-400 to-purple-500" },
+              { icon: Calendar, text: "15-17 Mart 2025", color: "from-blue-400 to-purple-500" },
               { icon: MapPin, text: "Onlayn turnir", color: "from-green-400 to-teal-500" },
               {
                 icon: Users,
@@ -473,7 +473,7 @@ export default function TournamentRegistration() {
                   <div className="absolute bottom-6 left-6 right-6">
                     <div className="flex items-center justify-between text-white">
                       <div>
-                        <h3 className="text-2xl font-bold mb-2">CS2 TALABALAR CHEMPIONATI 2024</h3>
+                        <h3 className="text-2xl font-bold mb-2">CS2 TALABALAR CHEMPIONATI 2025</h3>
                         <p className="text-orange-200">
                           15-17 Mart • Mukofot fondi {tournamentStats?.prize_pool?.toLocaleString() || "100,000"} so'm
                         </p>
