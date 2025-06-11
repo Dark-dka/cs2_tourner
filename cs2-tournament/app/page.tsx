@@ -283,8 +283,8 @@ export default function TournamentRegistration() {
     "O'yin davomida adolatli o'ynash talab qilinadi; har qanday cheat yoki hackdan foydalanish diskvalifikatsiyaga olib keladi.",
     "Turnir onlayn o'tkaziladi, shuning uchun barqaror internet aloqasi zarur.",
     "Har bir o'yinchi o'zining Steam ID'sini taqdim etishi va CS2 o'yiniga ega bo'lishi kerak.",
-    "Ro'yxatdan o'tish 10 Mart 2024, 23:59 da yakunlanadi.",
-    "Turnir 15-17 Mart 2024 kunlari o'tkaziladi.",
+    "Ro'yxatdan o'tish 10 Mart 2025, 23:59 da yakunlanadi.",
+    "Turnir 15-17 Mart 2025 kunlari o'tkaziladi.",
     "Mukofotlar: 1-o'rin - 50,000 so'm, 2-o'rin - 30,000 so'm, 3-o'rin - 20,000 so'm.",
   ]
 
