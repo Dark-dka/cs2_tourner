@@ -302,7 +302,7 @@ export default function TournamentRegistration() {
     {
       icon: Calendar,
       title: "O'tkazilish sanasi",
-      desc: tournamentStats ? formatDate(tournamentStats.start_date) : "15-17 Mart 2024",
+      desc: tournamentStats ? formatDate(tournamentStats.start_date) : "15-17 Mart 2025",
       color: "text-blue-400",
     },
     { icon: Users, title: "Format", desc: "5v5, jamoada 7 kishigacha", color: "text-green-400" },
@@ -321,7 +321,7 @@ export default function TournamentRegistration() {
     {
       icon: Clock,
       title: "Ro'yxatdan o'tish muddati",
-      desc: tournamentStats ? formatDate(tournamentStats.registration_deadline) : "10 Mart 2024, 23:59",
+      desc: tournamentStats ? formatDate(tournamentStats.registration_deadline) : "10 Mart 2025, 23:59",
       color: "text-red-400",
     },
   ]
@@ -757,12 +757,13 @@ export default function TournamentRegistration() {
                             <div className="relative">
                               <Input
                                 id={field.id}
-                                value={formData[field.id as keyof typeof formData]}
+                                defaultValue={formData[field.id as keyof typeof formData]}
                                 onChange={(e) => handleInputChange(field.id, e.target.value)}
                                 className="bg-slate-800/50 border-slate-600 text-white rounded-xl h-12 px-4 focus:border-green-500 focus:ring-green-500/20 transition-all duration-300 group-hover:border-slate-500"
                                 placeholder={field.placeholder}
                                 required={field.required}
                                 disabled={isSubmitting}
+                                readOnly
                               />
                               <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-green-500/0 via-green-500/0 to-green-500/0 group-focus-within:from-green-500/10 group-focus-within:via-green-500/5 group-focus-within:to-green-500/10 transition-all duration-300 pointer-events-none" />
                             </div>
@@ -795,6 +796,7 @@ export default function TournamentRegistration() {
                               className="bg-slate-800/50 border-slate-600 text-white rounded-xl h-12 px-4 focus:border-red-500 focus:ring-red-500/20 transition-all duration-300 group-hover:border-slate-500"
                               required
                               disabled={isSubmitting}
+                              readOnly
                             />
                             <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-red-500/0 via-red-500/0 to-red-500/0 group-focus-within:from-red-500/10 group-focus-within:via-red-500/5 group-focus-within:to-red-500/10 transition-all duration-300 pointer-events-none" />
                           </div>
@@ -1032,7 +1034,7 @@ export default function TournamentRegistration() {
               CS2 CHEMPIONATI
             </div>
           </div>
-          <p className="text-slate-400 mb-4">© 2024 CS2 Talabalar Chempionati. Barcha huquqlar himoyalangan.</p>
+          <p className="text-slate-400 mb-4">© 2025 CS2 Talabalar Chempionati. Barcha huquqlar himoyalangan.</p>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-slate-400">
             <a href="mailto:ranchuniversity@gmail.com" className="hover:text-orange-400 transition-colors">
               ranchuniversity@gmail.com
