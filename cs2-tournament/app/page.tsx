@@ -747,8 +747,7 @@ export default function TournamentRegistration() {
                             label: "Ta'lim muassasasi",
                             placeholder: "Universitet/kollej nomi",
                             required: true,
-                          },
-                          { id: "studentId", label: "Talaba guvohnomasi raqami", required: true },
+                          }, 
                         ].map((field) => (
                           <div key={field.id} className="space-y-3 group">
                             <Label htmlFor={field.id} className="text-slate-300 font-medium flex items-center gap-2">
