@@ -284,8 +284,7 @@ export default function TournamentRegistration() {
     "Turnir onlayn o'tkaziladi, shuning uchun barqaror internet aloqasi zarur.",
     "Har bir o'yinchi o'zining Steam ID'sini taqdim etishi va CS2 o'yiniga ega bo'lishi kerak.",
     "Ro'yxatdan o'tish 10 Mart 2025, 23:59 da yakunlanadi.",
-    "Turnir 15-17 Mart 2025 kunlari o'tkaziladi.",
-    "Mukofotlar: 1-o'rin - 50,000 so'm, 2-o'rin - 30,000 so'm, 3-o'rin - 20,000 so'm.",
+    "Turnir 15-17 Mart 2025 kunlari o'tkaziladi.", 
   ]
 
   // Real ma'lumotlarni ko'rsatish uchun yangilash
