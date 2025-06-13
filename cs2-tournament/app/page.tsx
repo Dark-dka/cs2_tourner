@@ -306,18 +306,6 @@ export default function TournamentRegistration() {
     },
     { icon: Users, title: "Format", desc: "5v5, jamoada 7 kishigacha", color: "text-green-400" },
     {
-      icon: Trophy,
-      title: "Mukofotlar",
-      desc: tournamentStats
-        ? [
-          `1-o'rin: ${tournamentStats.first_prize.toLocaleString()} so'm`,
-          `2-o'rin: ${tournamentStats.second_prize.toLocaleString()} so'm`,
-          `3-o'rin: ${tournamentStats.third_prize.toLocaleString()} so'm`,
-        ]
-        : ["1-o'rin: 50,000 so'm", "2-o'rin: 30,000 so'm", "3-o'rin: 20,000 so'm"],
-      color: "text-yellow-400",
-    },
-    {
       icon: Clock,
       title: "Ro'yxatdan o'tish muddati",
       desc: tournamentStats ? formatDate(tournamentStats.registration_deadline) : "10 Mart 2025, 23:59",
