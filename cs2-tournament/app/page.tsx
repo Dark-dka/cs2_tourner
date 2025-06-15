@@ -581,12 +581,7 @@ export default function TournamentRegistration() {
                         label: "O'yinchilar",
                         value: `${tournamentStats?.total_players || 0}`,
                         color: "from-blue-400 to-cyan-400",
-                      },
-                      {
-                        label: "Mukofotlar",
-                        value: `${Math.floor((tournamentStats?.prize_pool || 100000) / 1000)}K`,
-                        color: "from-yellow-400 to-orange-400",
-                      },
+                      }, 
                       {
                         label: "Ro'yxatlar",
                         value: tournamentStats?.total_registrations?.toString() || "0",
